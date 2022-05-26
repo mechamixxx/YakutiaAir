@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
+        android:paddingLeft="10dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:text="TextView"
@@ -21,27 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
+        android:paddingLeft="10dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:text="TextView" />
 
-    <TextView
-        android:id="@+id/tvData3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/tvData4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
-        android:text="TextView" />
 </LinearLayout>

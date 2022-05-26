@@ -31,10 +31,9 @@ public class CustomArrayAdapter extends  ArrayAdapter<ListItemClass>{
             viewHolder = new ViewHolder();
             viewHolder.data1 = convertView.findViewById(R.id.tvData1);
             viewHolder.data2 = convertView.findViewById(R.id.tvData2);
-            viewHolder.data3 = convertView.findViewById(R.id.tvData3);
-            viewHolder.data4 = convertView.findViewById(R.id.tvData4);
+            //viewHolder.data3 = convertView.findViewById(R.id.tvData3);
+            //viewHolder.data4 = convertView.findViewById(R.id.tvData4);
             convertView.setTag(viewHolder);
-
         }
         else
         {
@@ -42,15 +41,14 @@ public class CustomArrayAdapter extends  ArrayAdapter<ListItemClass>{
         }
         viewHolder.data1.setText(listItemMain.getData_1());
         viewHolder.data2.setText(listItemMain.getData_2());
-        viewHolder.data3.setText(listItemMain.getData_3());
-        viewHolder.data4.setText(listItemMain.getData_4());
-
+       // viewHolder.data3.setText(listItemMain.getData_3());
+       // viewHolder.data4.setText(listItemMain.getData_4());
         return convertView;
     }
     private class ViewHolder{
         TextView data1;
         TextView data2;
-        TextView data3;
-        TextView data4;
+        //TextView data3;
+       // TextView data4;
     }
 }

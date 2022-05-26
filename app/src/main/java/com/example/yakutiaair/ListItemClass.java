@@ -3,8 +3,8 @@ package com.example.yakutiaair;
 public class ListItemClass {
     String data_1;
     String data_2;
-    String data_3;
-    String data_4;
+    /*String data_3;
+    String data_4;*/
     public String getData_1() {
         return data_1;
     }
@@ -17,7 +17,7 @@ public class ListItemClass {
     public void setData_2(String data_2) {
         this.data_2 = data_2;
     }
-    public String getData_3() {
+    /*public String getData_3() {
         return data_3;
     }
     public void setData_3(String data_3) {
@@ -28,5 +28,5 @@ public class ListItemClass {
     }
     public void setData_4(String data_4) {
         this.data_4 = data_4;
-    }
+    }*/
 }
